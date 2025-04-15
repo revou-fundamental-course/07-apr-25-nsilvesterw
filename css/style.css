@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #005bac;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e6f0fa;
+}
+
+.banner img {
+  width: 75%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.headquarters {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.headquarters div {
+  border: 2px solid #005bac;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #cce0f5;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+form button {
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #005bac;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: right;
+  padding: 20px;
+  background-color: #e6f0fa;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .headquarters {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

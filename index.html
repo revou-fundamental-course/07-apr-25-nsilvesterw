@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil Bank BCA</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Menu Utama</a></li>
+      <li><a href="#profile">Profil Kami</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#message">Hubungi Kami</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Halo <span id="name">Guest</span>, Selamat datang di website Bank BCA</h1>
+    <p>Solusi perbankan terpercaya untuk masa depan Anda.</p>
+    <div class="banner">
+      <img src="https://i0.wp.com/pinterpoin.com/wp-content/uploads/2019/02/BCA-HUT-62-Banner.jpg?ssl=1" alt="BCA Banner">
+    </div>
+  </header>
+
+  <section id="profile">
+    <h2>Tentang Bank BCA</h2>
+    <p>PT Bank Central Asia Tbk (BCA) adalah salah satu bank swasta terbesar di Indonesia yang memberikan berbagai layanan perbankan terbaik kepada masyarakat Indonesia.</p>
+
+    <h3>Visi dan Misi</h3>
+    <p><strong>Visi:</strong> Menjadi bank pilihan utama andalan masyarakat yang berperan sebagai pilar penting perekonomian Indonesia.</p>
+    <p><strong>Misi:</strong></p>
+    <ul>
+      <li>Membangun hubungan jangka panjang yang saling menguntungkan dengan nasabah.</li>
+      <li>Menyediakan berbagai produk dan layanan perbankan yang berkualitas tinggi dan inovatif.</li>
+      <li>Meningkatkan nilai bagi pemegang saham dan kesejahteraan karyawan.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Kantor Wilayah Kami</h2>
+    <div class="headquarters">
+      <div>Jakarta</div>
+      <div>Bandung</div>
+      <div>Surabaya</div>
+    </div>
+  </section>
+
+  <section id="message">
+    <h2>Hubungi Kami</h2>
+    <form id="messageForm">
+      <label for="inputName">Name:</label>
+      <input type="text" id="inputName" required />
+
+      <label for="gender">Gender:</label>
+      <select id="gender" required>
+        <option value="">--Select--</option>
+        <option value="Male">Laki-laki</option>
+        <option value="Female">Perempuan</option>
+      </select>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" required />
+
+      <label for="userMessage">Message:</label>
+      <textarea id="userMessage" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="formOutput"></div>
+  </section>
+
+  <footer>
+    <p>Copyrights Bank BCA ©</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
